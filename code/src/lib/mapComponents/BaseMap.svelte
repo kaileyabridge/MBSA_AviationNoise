@@ -351,14 +351,13 @@
         pointer-events: none;
         position: absolute;
         z-index: 2;
-        cursor: grab;
+        cursor: grab;}
 
-        .municipality {
+    #map svg .municipality {
             pointer-events: auto;
             cursor: pointer;
         }
 
-    }
 
     dl.info {
         z-index: 2;
